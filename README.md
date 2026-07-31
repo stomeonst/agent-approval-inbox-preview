@@ -35,7 +35,6 @@ The included application uses local ad-hoc signing. Apple Developer ID signing, 
 
 The complete package is available for **USD 29** as a one-time purchase.
 
-For purchase or licensing questions, email [Chris](mailto:junad87@gmail.com?subject=Agent%20Approval%20Inbox%20source%20package).
+For purchase or licensing questions, email [Gang Qu](mailto:stomeonst123@gmail.com?subject=Agent%20Approval%20Inbox%20source%20package).
 
 This repository is a public product preview. It does not include the application binary or implementation source, and no license to copy, redistribute, or sell the commercial package is granted here.
-
