@@ -2,6 +2,8 @@
 
 A local-first macOS menu bar app that gives scripts and automations a clear human checkpoint before sensitive actions continue.
 
+**Product page:** [stomeonst.github.io/agent-approval-inbox-preview](https://stomeonst.github.io/agent-approval-inbox-preview/)
+
 Your workflow writes pending actions to a local JSON file. Agent Approval Inbox keeps them visible until the user approves, completes, rejects, or snoozes each item, then appends the decision to a local JSONL audit log.
 
 ## What the full package includes
