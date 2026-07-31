@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "customer-reply-2026-08-01-001",
+      "title": "Confirm customer reply",
+      "summary": "The reply draft is ready. Add the final note before sending.",
+      "kind": "completion",
+      "urgency": "normal",
+      "status": "pending",
+      "createdAt": "2026-08-01T08:00:00Z",
+      "updatedAt": "2026-08-01T08:00:00Z",
+      "deadline": "2026-08-02T10:00:00Z",
+      "estimatedAmount": "$500",
+      "sourceURL": "https://example.com/customer-thread/42",
+      "requiredFields": [
+        {
+          "id": "final_note",
+          "label": "Final note",
+          "placeholder": "Add any detail that should be included before sending",
+          "isRequired": false,
+          "isSecure": false,
+          "isMultiline": true,
+          "defaultValue": ""
+        }
+      ]
+    }
+  ]
+}
