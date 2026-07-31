@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "publish-release-2026-07-31-001",
+      "title": "批准生产版本发布",
+      "summary": "2.4 版本已经通过全部自动检查，可以发布。",
+      "kind": "approval",
+      "urgency": "high",
+      "status": "pending",
+      "createdAt": "2026-07-31T08:00:00Z",
+      "updatedAt": "2026-07-31T08:00:00Z",
+      "deadline": "2026-08-01T10:00:00Z",
+      "estimatedAmount": "$1,200",
+      "sourceURL": "https://example.com/releases/2.4",
+      "requiredFields": [
+        {
+          "id": "release_manager",
+          "label": "发布负责人",
+          "placeholder": "",
+          "isRequired": true,
+          "isSecure": false,
+          "isMultiline": false,
+          "defaultValue": "张明"
+        }
+      ]
+    }
+  ]
+}

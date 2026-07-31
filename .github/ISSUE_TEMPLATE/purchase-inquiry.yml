@@ -1,0 +1,39 @@
+name: Purchase inquiry
+description: Ask about the Agent Approval Inbox commercial source package.
+title: "Purchase inquiry: "
+labels:
+  - purchase-inquiry
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include passwords, payment details, personal identification, or other sensitive information.
+  - type: dropdown
+    id: use_case
+    attributes:
+      label: Intended use
+      options:
+        - Personal automation
+        - Client project
+        - Internal team workflow
+        - Evaluation before purchase
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow summary
+      description: Briefly describe the local workflow you want to connect.
+    validations:
+      required: true
+  - type: dropdown
+    id: macos
+    attributes:
+      label: macOS version
+      options:
+        - macOS 15 or later
+        - macOS 14
+        - Earlier than macOS 14
+        - Not sure
+    validations:
+      required: true
