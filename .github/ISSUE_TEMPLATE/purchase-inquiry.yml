@@ -9,6 +9,17 @@ body:
       value: |
         Please do not include passwords, payment details, personal identification, or other sensitive information.
   - type: dropdown
+    id: inquiry_type
+    attributes:
+      label: What would you like to do?
+      options:
+        - Check compatibility before purchasing
+        - Purchase the USD 29 commercial source package
+        - Ask about post-purchase integration guidance
+        - Ask a licensing question
+    validations:
+      required: true
+  - type: dropdown
     id: use_case
     attributes:
       label: Intended use
@@ -35,5 +46,30 @@ body:
         - macOS 14
         - Earlier than macOS 14
         - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: integration_language
+    attributes:
+      label: Workflow language
+      description: Select the main language used by the workflow that will write the JSON queue.
+      options:
+        - Python
+        - Shell
+        - Node.js or TypeScript
+        - Swift
+        - Another language
+        - Not decided yet
+    validations:
+      required: true
+  - type: dropdown
+    id: timeline
+    attributes:
+      label: Preferred timeline
+      options:
+        - Within 3 days
+        - Within 1 week
+        - Within 1 month
+        - Exploring for later
     validations:
       required: true

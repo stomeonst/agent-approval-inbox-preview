@@ -46,9 +46,11 @@ It is not intended to replace a team ticketing system, cloud workflow platform, 
 
 ## Purchase flow
 
-1. Send a purchase or licensing inquiry by email or through the repository issue template.
+1. Send a purchase, compatibility, or licensing inquiry by email or through the repository issue template.
 2. Confirm the required license scope and whether integration help is needed.
 3. Receive the commercial package after payment is confirmed.
+
+If you are unsure whether the file contract fits your workflow, choose **Check compatibility before purchasing** in the issue form. A short workflow description, macOS version, and implementation language are enough for the initial check. Do not include credentials, payment details, or private customer data.
 
 ## Requirements
 
